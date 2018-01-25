@@ -16,6 +16,6 @@ class EmployeesController extends Controller
         foreach (Employee::all() as $employee) {
             $response[] = new EmployeeResource($employee);
         }
-        return ['employees' => $response];
+        return $this->responseSuccess(['employees' => $response]);
     }
 }

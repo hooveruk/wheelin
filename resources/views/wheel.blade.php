@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Wheelin' the wheel of fate</title>
 
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -86,15 +86,11 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Wheel of fate
+                    Wheel Of Fate
                 </div>
 
                 <div>
                     <p>
-                        <script>
-                            $( function() {
-                            } );
-                        </script>
                         <input placeholder="click to select date" type='text' id="selecteddate">
                         <button name="Fetch Schedule" onclick="fetchData();">Fetch Schedule</button>
                         <button id="autodraw">Auto Draw (server side)</button>
@@ -125,18 +121,10 @@
                         </tbody>
                     </table>
                 </div>
-                <script>
-
-                </script>
 
             <div id="table-container">
                 Select a date by clicking on the input field. Or use fetch for current date.
             </div>
-
-                <script>
-
-                </script>
-
         </div>
             <div align="center" id="dialog" style="display: none;">
                 <table cellpadding="0" cellspacing="0" border="0">

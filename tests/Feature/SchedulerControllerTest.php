@@ -273,7 +273,4 @@ class SchedulerControllerTest extends TestCase
         // and we are missing a schedule for employee we got to draw for
         $this->assertEquals(1, $count['employees'][$data['data']['employees'][0]['id']]);
     }
-
-
-
 }
